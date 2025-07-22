@@ -1,5 +1,2 @@
 [build]
 builder = "DOCKERFILE"
-
-[deploy]
-startCommand = "telegram-bot-api --api-id=$TELEGRAM_API_ID --api-hash=$TELEGRAM_API_HASH --http-port=$PORT --local --dir=/var/lib/telegram-bot-api"
