@@ -1,0 +1,5 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+startCommand = "telegram-bot-api --api-id=$26197130 --api-hash=$57268e07e3b7e3080af4fb9a00b3776e --http-port=$8081 --local --dir=/var/lib/telegram-bot-api"
